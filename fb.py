@@ -21,7 +21,8 @@ print '''
                 PEMBUAT MR.FUAD               
       GITHUB https://github.com/11992288FZ
              WHATSAPP 085876330812
-     FACEBOOK RECOVERY PASSWORD ATTACKER  
+     FACEBOOK RECOVERY PASSWORD ATTACKER
+  
  _____              _                 _
 |  ___|_ _  ___ ___| |__   ___   ___ | | __
 | |_ / _` |/ __/ _ \ '_ \ / _ \ / _ \| |/ /
@@ -62,7 +63,7 @@ while True:
             except IOError:
                 print " Gabisa Dimuat Halaman Nya :( "
     
-            search = re.search('password_new', get)
+            search = re.search('password_new')
             if search:
                 print "[+] Kode Yang Ini "+w+" Bener anda beuntung^___^ "
             else:
